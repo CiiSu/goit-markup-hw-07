@@ -1,0 +1,52 @@
+.empty-slot {
+    padding-top: 94px;
+}
+
+.lorem-main {
+    display: flex;
+    margin: 0 30px 94px 0;
+}
+
+.box-lorem {
+    width: 270px;
+    height: 120px;
+    background-color: var(--background-color-icon);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.margin-lorem-index {
+    margin-right: 30px;
+    width: 270px;
+    height: 120px;
+    background-color: #f5f4fa;
+    margin-bottom: 30px;
+}
+
+.h4 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--main-black);
+    padding-top: 30px;
+}
+
+.lorem-description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--main-grey);
+    width: 270px;
+    padding-top: 10px;
+}
