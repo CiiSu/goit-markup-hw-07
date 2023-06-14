@@ -2,12 +2,12 @@
     padding-top: 94px;
 }
 
-.lorem-main {
+.article {
     display: flex;
     margin: 0 30px 94px 0;
 }
 
-.box-lorem {
+.article__box {
     width: 270px;
     height: 120px;
     background-color: var(--background-color-icon);
@@ -17,21 +17,23 @@
     justify-content: center;
 }
 
-.icon-group {
+/*.article__icon {
     display: flex;
     justify-content: center;
     align-items: center;
-}
+}*/
 
-.margin-lorem-index {
+
+
+.article__frame {
     margin-right: 30px;
     width: 270px;
     height: 120px;
-    background-color: #f5f4fa;
+    background-color: var(--background-color-icon);
     margin-bottom: 30px;
 }
 
-.h4 {
+.article__name {
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
@@ -41,7 +43,7 @@
     padding-top: 30px;
 }
 
-.lorem-description {
+.article__description {
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;

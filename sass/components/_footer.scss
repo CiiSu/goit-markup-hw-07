@@ -5,18 +5,18 @@ footer {
     background: #2F303A;
 }
 
-.footer-wrap {
+.footer_wrap {
     display: flex;
     padding-top: 60px;
     align-items: flex-start;
 }
 
-.footer-logo {
+.footer_wrap2 {
     display: inline-block;
     margin-right: 70px;
 }
 
-.web-logo-footer {
+.web-logo__blue {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -26,7 +26,7 @@ footer {
     color: var(--main-blue);
 }
 
-.web-logo-footer-2 {
+.web-logo__white {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -36,12 +36,13 @@ footer {
     color: var(--main-white);
 }
 
-.footer-adress {
+.footer_adress {
     padding-top: 20px;
 }
 
-.footer-link {
+.footer_mail {
     padding-block: 9px;
+    
 }
 
 .link-footer {
