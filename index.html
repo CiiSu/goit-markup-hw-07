@@ -374,7 +374,7 @@
             <ul class="customers">
               <li>
                 <a href="#">
-                  <div class="customers_frame">
+                  <div class="customers__frame">
                     <svg width="106" height="46">
                       <use href="zdjęcia/icon.svg#icon-Union"></use>
                     </svg></div
@@ -382,7 +382,7 @@
               </li>
               <li>
                 <a href="#">
-                  <div class="customers_frame">
+                  <div class="customers__frame">
                     <svg width="106" height="52">
                       <use href="zdjęcia/icon.svg#icon-company-ne"></use>
                     </svg></div
@@ -390,7 +390,7 @@
               </li>
               <li>
                 <a href="#">
-                  <div class="customers_frame">
+                  <div class="customers__frame">
                     <svg width="106" height="60">
                       <use href="zdjęcia/icon.svg#icon-company"></use>
                     </svg></div
@@ -398,7 +398,7 @@
               </li>
               <li>
                 <a href="#">
-                  <div class="customers_frame">
+                  <div class="customers__frame">
                     <svg width="106" height="60">
                       <use href="zdjęcia/icon.svg#icon-foster"></use>
                     </svg></div
@@ -406,7 +406,7 @@
               </li>
               <li>
                 <a href="#">
-                  <div class="customers_frame">
+                  <div class="customers__frame">
                     <svg width="106" height="60">
                       <use href="zdjęcia/icon.svg#icon-brand"></use>
                     </svg></div
@@ -414,7 +414,7 @@
               </li>
               <li>
                 <a href="#">
-                  <div class="customers_frame">
+                  <div class="customers__frame">
                     <svg width="106" height="60">
                       <use href="zdjęcia/icon.svg#icon-tagline"></use>
                     </svg></div
@@ -426,92 +426,78 @@
       </main>
       <footer>
         <div class="container">
-          <div class="footer_wrap">
-            <div class="footer_wrap2">
+          <div class="footer__wrap">
+            <div class="footer__wrap2">
               <a href="index.html" class="web-logo__blue"
                 ><span>Web</span><span class="web-logo__white">Studio</span>
               </a>
               <ul>
-                <li class="footer_adress">
+                <li class="footer__adress">
                   <a
-                    class="link-footer"
+                    class="footer__link--color"
                     href="https://goo.gl/maps/wcyMzufaztNmCodf6"
                     target="_blank"
                     >m. Warszawa, Aleje Jerozolimskie 21</a
                   >
                 </li>
-                <li class="footer_mail">
-                  <a class="mail-tel-footer" href="mailto:info@example.com"
+                <li class="footer__mail">
+                  <a
+                    class="footer__contact--color"
+                    href="mailto:info@example.com"
                     >info@example.com</a
                   >
                 </li>
                 <li>
-                  <a class="mail-tel-footer" href="tel:+48111111111"
+                  <a class="footer__contact--color" href="tel:+48111111111"
                     >+48 111 111 111</a
                   >
                 </li>
               </ul>
             </div>
             <div>
-              <h4 class="h4-footer">DOŁĄCZ DO NAS</h4>
-              <ul class="ul-footer">
-                <li class="list-footer">
-                  <a
-                    class="footer-social-link"
-                    href="https://www.instagram.com"
-                    target="_blank"
-                  ></a>
-                  <svg class="icon-social-fotter" width="44" height="44">
+              <h4 class="h4_footer">DOŁĄCZ DO NAS</h4>
+              <ul class="icon__footer">
+                <li class="icon__list">
+                  <a href="https://www.instagram.com" target="_blank"></a>
+                  <svg class="icon_hover" width="44" height="44">
                     <use href="zdjęcia/icon.svg#icon-instfooter"></use>
                   </svg>
                 </li>
-                <li class="list-footer">
-                  <a
-                    class="footer-social-link"
-                    href="https://www.instagram.com"
-                    target="_blank"
-                  ></a>
-                  <svg class="icon-social-fotter" width="44" height="44">
+                <li class="icon__list">
+                  <a href="https://www.instagram.com" target="_blank"></a>
+                  <svg class="icon_hover" width="44" height="44">
                     <use href="zdjęcia/icon.svg#icon-twitfooter"></use>
                   </svg>
                 </li>
-                <li class="list-footer">
-                  <a
-                    class="footer-social-link"
-                    href="https://www.instagram.com"
-                    target="_blank"
-                  ></a>
-                  <svg class="icon-social-fotter" width="44" height="44">
+                <li class="icon__list">
+                  <a href="https://www.instagram.com" target="_blank"></a>
+                  <svg class="icon_hover" width="44" height="44">
                     <use href="zdjęcia/icon.svg#icon-fbfooter"></use>
                   </svg>
                 </li>
-                <li class="list-footer">
-                  <a
-                    class="footer-social-link"
-                    href="https://www.instagram.com"
-                    target="_blank"
-                  ></a>
-                  <svg class="icon-social-fotter" width="44" height="44">
+                <li class="icon__list">
+                  <a href="https://www.instagram.com" target="_blank"></a>
+                  <svg class="icon__hover" width="44" height="44">
                     <use href="zdjęcia/icon.svg#icon-infooter"></use>
                   </svg>
                 </li>
               </ul>
             </div>
             <div>
-              <form class="newsletter-flex">
-                <label class="newsletter">
+              <form class="newsletter">
+                <label class="newsletter__name">
                   ZAPISZ SIĘ DO NEWSLETTERA
                   <input
                     required
-                    class="input-newsletter"
+                    class="newsletter__input"
                     type="email"
                     name="email"
                     placeholder="E-mail"
                   />
                 </label>
-                <button type="submit" class="newsletter-footer-button">
+                <button type="submit" class="newsletter__button">
                   Zapisz się
-                  <svg class="icon-newsletter-fotter" width="24" height="24">
+                  <svg class="newsletter__icon" width="24" height="24">
                     <use href="zdjęcia/icon.svg#icon-letter"></use>
                   </svg>
                 </button>
